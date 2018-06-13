@@ -7,6 +7,6 @@ class LinkTest < CapybaraTestCase
 
     assert_equal 200, page.status_code
     assert_equal '/about', current_path
-    assert page.has_content?("About Me!")
+    assert page.has_content?("I'm John!")
   end
 end
